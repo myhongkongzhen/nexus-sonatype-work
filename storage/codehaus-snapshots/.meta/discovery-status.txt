@@ -1,6 +1,6 @@
 #Nexus discovery status
-#Sat Oct 08 13:28:52 CST 2016
+#Sat Oct 08 14:41:12 CST 2016
 lastDiscoveryStrategy=prefix-file
 lastDiscoveryStatus=ERROR
-lastDiscoveryTimestamp=1475904532314
+lastDiscoveryTimestamp=1475908872274
 lastDiscoveryMessage=Transport error while executing GET method [repositoryId\="codehaus-snapshots", requestPath\="/.meta/prefixes.txt", remoteUrl\="http\://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
