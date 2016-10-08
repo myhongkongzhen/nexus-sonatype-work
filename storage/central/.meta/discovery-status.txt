@@ -1,0 +1,6 @@
+#Nexus discovery status
+#Sat Oct 08 13:28:55 CST 2016
+lastDiscoveryStrategy=prefix-file
+lastDiscoveryStatus=UNSUCCESSFUL
+lastDiscoveryTimestamp=1475904535242
+lastDiscoveryMessage=Remote strategy prefix-file detected invalid input, results discarded\: Prefix file size exceeds maximum allowed size (100000), refusing to load it.
