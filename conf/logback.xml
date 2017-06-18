@@ -8,6 +8,6 @@
   <property file='${nexus.log-config-dir}/logback.properties'/>
   <include file='${nexus.log-config-dir}/logback-siesta.xml'/>
   <include file='${nexus.log-config-dir}/logback-healthcheck.xml'/>
-  <include file='${nexus.log-config-dir}/logback-nexus.xml'/>
   <include file='${nexus.log-config-dir}/logback-events.xml'/>
+  <include file='${nexus.log-config-dir}/logback-nexus.xml'/>
 </configuration>

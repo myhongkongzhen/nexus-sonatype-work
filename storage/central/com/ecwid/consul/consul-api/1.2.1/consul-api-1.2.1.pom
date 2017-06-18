@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ecwid.consul</groupId>
+  <artifactId>consul-api</artifactId>
+  <version>1.2.1</version>
+  <name>Ecwid Consul API</name>
+  <description>Java client for Consul HTTP API (http://consul.io)</description>
+  <url>https://github.com/Ecwid/consul-api</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vgv</id>
+      <name>Vasily Vasilkov</name>
+      <email>vgv@ecwid.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:Ecwid/consul-api.git</connection>
+    <developerConnection>scm:git:git@github.com:Ecwid/consul-api.git</developerConnection>
+    <url>https://github.com/Ecwid/consul-api.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.4.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

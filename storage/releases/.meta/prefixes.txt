@@ -2,3 +2,4 @@
 # Do not edit, changes will be overwritten!
 /archetype-catalog.xml
 /zzwu/std
+/z/z

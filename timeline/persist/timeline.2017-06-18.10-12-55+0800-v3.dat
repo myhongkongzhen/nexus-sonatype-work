@@ -1,0 +1,13 @@
+ÿıÌÂ«À+ERROR_WARNINGwarning"˝
+messageÒRemote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]"
+actionwarning"$
+date2017-06-18 10:12:55.669+0800|≠Â«À+SYSTEMBOOT"/
+message$Started Nexus (version 2.5.1-01 OSS)"
+actionBOOT"$
+date2017-06-18 10:12:55.981+0800†∂•Ï«À+AUTHC_AUTHZAUTHC"L
+messageASuccessfully authenticated user [admin] from IP address 127.0.0.1"
+actionAUTHC"$
+date2017-06-18 10:14:41.076+0800}î‚Ï«À+SYSTEMBOOT"0
+message%Stopping Nexus (version 2.5.1-01 OSS)"
+actionBOOT"$
+date2017-06-18 10:14:48.852+0800

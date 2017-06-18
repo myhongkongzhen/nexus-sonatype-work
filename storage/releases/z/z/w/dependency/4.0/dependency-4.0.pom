@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2016. Lorem ipsum dolor sit amet, consectetur adipiscing elit.                                      ~
+  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.                       ~
+  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.                                                  ~
+  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.                    ~
+  ~ Vestibulum commodo. Ut rhoncus gravida arcu.                                                                      ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>z.z.w</groupId>
+    <artifactId>dependency</artifactId>
+    <version>4.0</version>
+    <!--<version>2.0-SNAPSHOT</version>-->
+    <modules>
+        <module>dependency-spring</module>
+        <module>dependency-common</module>
+        <module>dependency-db</module>
+        <module>dependency-highend</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>dependency</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <skip_maven_deploy>true</skip_maven_deploy>
+        <version>4.3.8.RELEASE</version>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://127.0.0.1:8888/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://127.0.0.1:8888/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+</project>
