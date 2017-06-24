@@ -1,16 +1,0 @@
-|î—˜ú*SYSTEMBOOT"/
-message$Started Nexus (version 2.5.1-01 OSS)"
-actionBOOT"$
-date2016-10-08 14:40:59.627+0800ØÒÐ˜˜ú*ERROR_WARNINGwarning"ý
-messageñRemote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]"
-actionwarning"$
-date2016-10-08 14:41:12.274+0800  ½œ˜ú*AUTHC_AUTHZAUTHC"L
-messageASuccessfully authenticated user [admin] from IP address 127.0.0.1"
-actionAUTHC"$
-date2016-10-08 14:42:15.327+0800Ú£šŸ˜ú*ERROR_WARNINGwarning"ÿ
-messageóRemote peer of proxy repository "Codehaus Snapshots" [id=codehaus-snapshots] threw a org.sonatype.nexus.proxy.RemoteStorageException exception. Connection/transport problems occured while connecting to remote peer of the repository. Auto-blocking this repository to prevent further connection-leaks and known-to-fail outbound connections until administrator fixes the problems, or Nexus detects remote repository as healthy. - Cause(s): Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="http://nexus.codehaus.org/snapshots/"] > Connect to nexus.codehaus.org:80 timed out"
-actionwarning"$
-date2016-10-08 14:43:00.003+0800¯¨šŸ˜ú*SYSTEMREPO_PSTATUS_CHANGES"Á
-messageµThe proxy mode of repository 'Codehaus Snapshots' (ID='codehaus-snapshots') was set to Blocked (auto). The previous state was Allow. Last detected transport error: Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="http://nexus.codehaus.org/snapshots/"]"
-actionREPO_PSTATUS_CHANGES"$
-date2016-10-08 14:43:00.008+0800

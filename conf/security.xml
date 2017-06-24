@@ -14,7 +14,7 @@
       <id>anonymous</id>
       <firstName>Nexus</firstName>
       <lastName>Anonymous User</lastName>
-      <password>$shiro1$SHA-512$1024$Bf/Y4aUD2pj+xTLlmh/Mcw==$oSXETE1vr9f1BDCBkyTESy3I18ZGckWgHzvjQpzFKlN27vEb/IyYXswXlP1XKmAv+xC94fTYcIKd08SRpDB+Kw==</password>
+      <password>$shiro1$SHA-512$1024$Hc6lowdXw5277Wj+KlOqeg==$5sSrWeQHJ4EkNE7R2eWaFpjaN9aWzJIrG3YXGT7oSYUqAejM8HIbaBqMpoCUl0QaWImwzKtfw6lkWobHiQKMgw==</password>
       <status>active</status>
       <email>changeme2@yourcompany.com</email>
     </user>
@@ -22,7 +22,7 @@
       <id>admin</id>
       <firstName>Administrator</firstName>
       <lastName>User</lastName>
-      <password>$shiro1$SHA-512$1024$Dn4ANoqxfb6D2Q9MR+B4MQ==$+XlBYvXKjwd1YIDmhL1YEw1ijqwNt+gCoJcZ6Si6K+0pG88fw7Ct3pV0X++c7h+wzgbLbuS4xz6Doxte2I3yZw==</password>
+      <password>$shiro1$SHA-512$1024$aQj1n040unPizSQFA9xWHg==$QuQBN4veTUyi0sa1lN8fM1gqWRBJ99G7mBj1WKl7x5/8Sxv2owbaGTCD4vUxx7HrhjIA1GVb6eLwYxUdWeRgkQ==</password>
       <status>active</status>
       <email>changeme@yourcompany.com</email>
     </user>

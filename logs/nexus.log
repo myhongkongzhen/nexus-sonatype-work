@@ -1,275 +1,161 @@
-2017-06-18 03:13:12 INFO  [main]  org.sonatype.nexus.DefaultNexus - 
+2017-06-24 16:40:25 INFO  [main]  org.sonatype.nexus.DefaultNexus - 
 -------------------------------------------------
 
 Initializing Sonatype Nexus 2.5.1-01
 
 -------------------------------------------------
-2017-06-18 03:13:12 INFO  [main]  org.sonatype.nexus.DefaultNexus - Activating locally installed plugins...
-2017-06-18 03:13:14 INFO  [main]  org.sonatype.sisu.velocity.Velocity - Creating default instance of VelocityEngine
-2017-06-18 03:13:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered default repository types.
-2017-06-18 03:13:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 03:13:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 03:14:02 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
-2017-06-18 03:14:02 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
-2017-06-18 03:14:05 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
-2017-06-18 03:14:10 INFO  [main]  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugin:nexus-outreach-plugin:1.3" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:1.1" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins.ldap:nexus-ldap-realm-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.insight.repomanager:nexus-healthcheck-oss-plugin:1.3.3" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.4" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-plugin:3.0.2" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.5.1-01" was successful.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
-2017-06-18 03:14:13 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security-configuration.xml
-2017-06-18 03:14:13 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
-2017-06-18 03:14:13 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache]
-2017-06-18 03:14:13 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1' does not yet exist.  Creating now.
-2017-06-18 03:14:13 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1]
-2017-06-18 03:14:14 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
-2017-06-18 03:14:14 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
-2017-06-18 03:14:17 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:14:18 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:14:19 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:14:20 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:14:21 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:14:22 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:14:22 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
-2017-06-18 03:14:23 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
-2017-06-18 03:14:23 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
-2017-06-18 03:14:23 INFO  [main]  org.sonatype.scheduling.DefaultTaskConfigManager - 0 task(s) to load.
-2017-06-18 03:14:23 INFO  [main]  org.sonatype.nexus.DefaultNexus - Nexus Work Directory : D:\01_opensource\programmes\sonatype-work
-2017-06-18 03:14:23 INFO  [main]  org.sonatype.nexus.DefaultNexus - Started Sonatype Nexus 2.5.1-01
-2017-06-18 03:14:24 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 03:14:24 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
-2017-06-18 03:14:25 WARN  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - No resources found
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidConfigurationExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   AuthorizationExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   NoSuchRepositoryExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ThrowableExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ValidationErrorsExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ConstraintViolationExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ObjectNotFoundExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   JacksonProvider
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationMessageExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidObjectExceptionMapper
-2017-06-18 03:14:28 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   BadRequestExceptionMapper
-2017-06-18 03:14:46 INFO  [http-8888-6]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
-2017-06-18 03:14:46 INFO  [http-8888-2]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
-2017-06-18 03:14:46 INFO  [http-8888-2]  org.sonatype.security.model.source.FileModelConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security.xml
-2017-06-18 03:19:11 INFO  [http-8888-2] anonymous org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Central" [id=central]...
-2017-06-18 03:37:44 INFO  [main]  org.sonatype.nexus.DefaultNexus - 
--------------------------------------------------
-
-Initializing Sonatype Nexus 2.5.1-01
-
--------------------------------------------------
-2017-06-18 03:37:44 INFO  [main]  org.sonatype.nexus.DefaultNexus - Activating locally installed plugins...
-2017-06-18 03:37:45 INFO  [main]  org.sonatype.sisu.velocity.Velocity - Creating default instance of VelocityEngine
-2017-06-18 03:37:46 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered default repository types.
-2017-06-18 03:37:46 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 03:37:46 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 03:38:31 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
-2017-06-18 03:38:31 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
-2017-06-18 03:38:31 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
-2017-06-18 03:38:32 INFO  [main]  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugin:nexus-outreach-plugin:1.3" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:1.1" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins.ldap:nexus-ldap-realm-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.insight.repomanager:nexus-healthcheck-oss-plugin:1.3.3" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.4" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-plugin:3.0.2" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:33 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.5.1-01" was successful.
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security-configuration.xml
-2017-06-18 03:38:34 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
-2017-06-18 03:38:34 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache]
-2017-06-18 03:38:34 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1' does not yet exist.  Creating now.
-2017-06-18 03:38:34 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1]
-2017-06-18 03:38:34 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
-2017-06-18 03:38:35 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
-2017-06-18 03:38:37 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:38:37 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:38:37 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 03:38:38 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:38:38 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.scheduling.DefaultTaskConfigManager - 0 task(s) to load.
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.nexus.DefaultNexus - Nexus Work Directory : D:\01_opensource\programmes\sonatype-work
-2017-06-18 03:38:39 INFO  [main]  org.sonatype.nexus.DefaultNexus - Started Sonatype Nexus 2.5.1-01
-2017-06-18 03:38:39 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 03:38:39 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
-2017-06-18 03:38:41 WARN  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - No resources found
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   AuthorizationExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   JacksonProvider
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ValidationErrorsExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   NoSuchRepositoryExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ObjectNotFoundExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidObjectExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidConfigurationExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationMessageExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   BadRequestExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ThrowableExceptionMapper
-2017-06-18 03:38:41 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ConstraintViolationExceptionMapper
-2017-06-18 03:38:43 INFO  [http-8888-1]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
-2017-06-18 03:38:43 INFO  [http-8888-1]  org.sonatype.security.model.source.FileModelConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security.xml
-2017-06-18 04:13:34 INFO  [http-8888-1] anonymous org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Central" [id=central]...
-2017-06-18 09:09:55 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:09:56 WARN  [ar-4-thread-1]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.cache.ehcache.EhCacheManager - Using existing EHCache named [shiro-activeSessionCache]
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:09:58 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 09:09:56 INFO  [ar-4-thread-5]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 09:09:55 INFO  [ar-4-thread-3]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Proxy "Codehaus Snapshots" [id=codehaus-snapshots] periodic remote discovery skipped as there is an ongoing job updating it, consider raising the update interval for this repository
-2017-06-18 09:09:58 INFO  [ar-4-thread-3]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Proxy "Codehaus Snapshots" [id=codehaus-snapshots] periodic remote discovery skipped as there is an ongoing job updating it, consider raising the update interval for this repository
-2017-06-18 09:09:58 INFO  [ar-4-thread-1]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 09:09:58 INFO  [ar-4-thread-4]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 09:09:58 WARN  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 09:09:58 INFO  [ar-4-thread-4]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 09:09:58 INFO  [ar-4-thread-5]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Proxy "Codehaus Snapshots" [id=codehaus-snapshots] periodic remote discovery skipped as there is an ongoing job updating it, consider raising the update interval for this repository
-2017-06-18 09:38:42 INFO  [ar-4-thread-3]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 09:38:42 WARN  [ar-4-thread-4]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 09:38:46 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
-2017-06-18 09:38:46 INFO  [Thread-41]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
-2017-06-18 10:07:35 INFO  [Thread-40]  org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
-2017-06-18 10:07:35 INFO  [Thread-40]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
-2017-06-18 10:07:35 INFO  [Thread-40]  org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
-2017-06-18 10:07:36 INFO  [Thread-40]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
-2017-06-18 10:07:36 INFO  [Thread-40]  org.sonatype.nexus.DefaultNexus - Stopped Sonatype Nexus 2.5.1-01
-2017-06-18 10:07:36 INFO  [Thread-40]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
-2017-06-18 10:07:36 INFO  [Thread-40]  org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
-2017-06-18 10:07:36 INFO  [Thread-40]  org.sonatype.sisu.ehcache.CacheManagerComponentImpl - Shutting down EHCache CacheManager.
-2017-06-18 10:12:08 INFO  [main]  org.sonatype.nexus.DefaultNexus - 
--------------------------------------------------
-
-Initializing Sonatype Nexus 2.5.1-01
-
--------------------------------------------------
-2017-06-18 10:12:08 INFO  [main]  org.sonatype.nexus.DefaultNexus - Activating locally installed plugins...
-2017-06-18 10:12:09 INFO  [main]  org.sonatype.sisu.velocity.Velocity - Creating default instance of VelocityEngine
-2017-06-18 10:12:10 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered default repository types.
-2017-06-18 10:12:10 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 10:12:10 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
-2017-06-18 10:12:48 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
-2017-06-18 10:12:48 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
-2017-06-18 10:12:48 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
-2017-06-18 10:12:49 INFO  [main]  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugin:nexus-outreach-plugin:1.3" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:1.1" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins.ldap:nexus-ldap-realm-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.insight.repomanager:nexus-healthcheck-oss-plugin:1.3.3" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.4" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-plugin:3.0.2" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.5.1-01" was successful.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security-configuration.xml
-2017-06-18 10:12:50 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
-2017-06-18 10:12:50 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache]
-2017-06-18 10:12:50 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1' does not yet exist.  Creating now.
-2017-06-18 10:12:50 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1]
-2017-06-18 10:12:50 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
-2017-06-18 10:12:51 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
-2017-06-18 10:12:52 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 10:12:53 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 10:12:53 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
-2017-06-18 10:12:54 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 10:12:54 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.scheduling.DefaultTaskConfigManager - 0 task(s) to load.
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.nexus.DefaultNexus - Nexus Work Directory : D:\01_opensource\programmes\sonatype-work
-2017-06-18 10:12:55 INFO  [main]  org.sonatype.nexus.DefaultNexus - Started Sonatype Nexus 2.5.1-01
-2017-06-18 10:12:55 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
-2017-06-18 10:12:55 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
-2017-06-18 10:12:55 WARN  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - No resources found
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationMessageExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidObjectExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   AuthorizationExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   JacksonProvider
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   NoSuchRepositoryExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ConstraintViolationExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidConfigurationExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ThrowableExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ValidationErrorsExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ObjectNotFoundExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationExceptionMapper
-2017-06-18 10:12:57 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   BadRequestExceptionMapper
-2017-06-18 10:14:34 INFO  [http-8888-4]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
-2017-06-18 10:14:34 INFO  [http-8888-5]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
-2017-06-18 10:14:34 INFO  [http-8888-4]  org.sonatype.security.model.source.FileModelConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security.xml
-2017-06-18 10:14:41 INFO  [http-8888-7]  org.apache.shiro.cache.ehcache.EhCacheManager - Using existing EHCache named [shiro-activeSessionCache]
-2017-06-18 10:14:47 INFO  [Thread-39]  org.apache.catalina.core.StandardWrapper - Waiting for 2 instance(s) to be deallocated
-2017-06-18 10:14:48 INFO  [Thread-39]  org.apache.catalina.core.StandardWrapper - Waiting for 1 instance(s) to be deallocated
-2017-06-18 10:14:48 INFO  [Thread-39]  org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
-2017-06-18 10:14:48 INFO  [Thread-39]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
-2017-06-18 10:14:48 INFO  [Thread-39]  org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
-2017-06-18 10:14:49 INFO  [Thread-39]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
-2017-06-18 10:14:49 INFO  [Thread-39]  org.sonatype.nexus.DefaultNexus - Stopped Sonatype Nexus 2.5.1-01
-2017-06-18 10:14:49 INFO  [Thread-39]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
-2017-06-18 10:14:50 INFO  [Thread-39]  org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
-2017-06-18 10:14:50 INFO  [Thread-39]  org.sonatype.sisu.ehcache.CacheManagerComponentImpl - Shutting down EHCache CacheManager.
+2017-06-24 16:40:25 INFO  [main]  org.sonatype.nexus.DefaultNexus - Activating locally installed plugins...
+2017-06-24 16:40:26 INFO  [main]  org.sonatype.sisu.velocity.Velocity - Creating default instance of VelocityEngine
+2017-06-24 16:40:28 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered default repository types.
+2017-06-24 16:40:28 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2017-06-24 16:40:28 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2017-06-24 16:41:07 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
+2017-06-24 16:41:07 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
+2017-06-24 16:41:07 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
+2017-06-24 16:41:08 INFO  [main]  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.15 10/30/2012 02:40 PM'
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugin:nexus-outreach-plugin:1.3" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:1.1" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins.ldap:nexus-ldap-realm-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "com.sonatype.insight.repomanager:nexus-healthcheck-oss-plugin:1.3.3" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.4" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-plugin:3.0.2" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.DefaultNexus - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.5.1-01" was successful.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2017-06-24 16:41:09 WARN  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - No configuration file in place, copying the default one and continuing with it.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security-configuration.xml
+2017-06-24 16:41:09 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2017-06-24 16:41:09 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthenticatingRealm.authorizationCache]
+2017-06-24 16:41:09 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1' does not yet exist.  Creating now.
+2017-06-24 16:41:09 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [org.sonatype.security.realms.XmlAuthorizingRealm.authorizationCache.1]
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2017-06-24 16:41:09 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
+2017-06-24 16:41:10 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2017-06-24 16:41:11 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2017-06-24 16:41:12 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2017-06-24 16:41:12 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2017-06-24 16:41:13 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.scheduling.DefaultTaskConfigManager - 0 task(s) to load.
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.DefaultNexus - This is 1st start of new Nexus instance.
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.DefaultNexus - Nexus Work Directory : D:\01_opensource\programmes\sonatype-work
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.DefaultNexus - Started Sonatype Nexus 2.5.1-01
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.proxy.target.DefaultTargetRegistryEventInspector - Adding default target for site content class
+2017-06-24 16:41:15 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration due to changes in [Repository Target Configuration]...
+2017-06-24 16:41:15 INFO  [ar-4-thread-3]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository] unsupported by automatic routing feature
+2017-06-24 16:41:15 INFO  [ar-4-thread-1]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Apache Snapshots" [id=apache-snapshots]...
+2017-06-24 16:41:15 INFO  [ar-4-thread-5]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
+2017-06-24 16:41:15 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Updated and published prefix file of "Releases" [id=releases]
+2017-06-24 16:41:15 INFO  [ar-4-thread-3]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Updated and published prefix file of "Snapshots" [id=snapshots]
+2017-06-24 16:41:15 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing transport for proxy repository "Central" [id=central]...
+2017-06-24 16:41:15 INFO  [ar-4-thread-4]  org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Updated and published prefix file of "3rd party" [id=thirdparty]
+2017-06-24 16:41:15 WARN  [ar-4-thread-5]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - No resources found
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidObjectExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   BadRequestExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ObjectNotFoundExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ValidationErrorsExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   NoSuchRepositoryExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ThrowableExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   AuthorizationExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   WebApplicationMessageExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   JacksonProvider
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   ConstraintViolationExceptionMapper
+2017-06-24 16:41:19 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   InvalidConfigurationExceptionMapper
+2017-06-24 16:41:24 INFO  [ar-4-thread-2]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file detected invalid input, results discarded: Prefix file size exceeds maximum allowed size (100000), refusing to load it.
+2017-06-24 16:41:27 INFO  [http-8888-2]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2017-06-24 16:41:27 INFO  [http-8888-1]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2017-06-24 16:41:27 INFO  [http-8888-1]  org.apache.shiro.cache.ehcache.EhCacheManager - Using existing EHCache named [shiro-activeSessionCache]
+2017-06-24 16:41:27 INFO  [http-8888-2]  org.apache.shiro.cache.ehcache.EhCacheManager - Using existing EHCache named [shiro-activeSessionCache]
+2017-06-24 16:41:27 WARN  [http-8888-1]  org.sonatype.security.model.source.FileModelConfigurationSource - No configuration file in place, copying the default one and continuing with it.
+2017-06-24 16:41:27 INFO  [http-8888-1]  org.sonatype.security.model.source.FileModelConfigurationSource - Loading Security configuration from D:\01_opensource\programmes\sonatype-work\conf\security.xml
+2017-06-24 16:41:57 WARN  [proxy-3-thread-1] admin org.sonatype.nexus.proxy.maven.maven2.M2Repository - Remote peer of proxy repository "Codehaus Snapshots" [id=codehaus-snapshots] threw a org.sonatype.nexus.proxy.RemoteStorageException exception. Connection/transport problems occured while connecting to remote peer of the repository. Auto-blocking this repository to prevent further connection-leaks and known-to-fail outbound connections until administrator fixes the problems, or Nexus detects remote repository as healthy. - Cause(s): Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="http://nexus.codehaus.org/snapshots/"] > nexus.codehaus.org
+2017-06-24 16:41:57 INFO  [RepositoryStatusChecker-codehaus-snapshots]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 40 seconds.
+2017-06-24 16:42:06 INFO  [http-8888-3] admin org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration due to changes in [Central] made by admin...
+2017-06-24 16:42:06 INFO  [ar-4-thread-4]  org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Updating transport for proxy repository "Central" [id=central]...
+2017-06-24 16:42:06 INFO  [nxevthost-1-thread-2]  org.sonatype.nexus.events.IndexingRepositoryRegistryRepositoryAsyncEventInspector - Enabled download of indexes on repository "Central" (id=central), doing full reindex of it.
+2017-06-24 16:42:07 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.tasks.RepairIndexTask - Scheduled task (RepairIndexTask) started :: Repairing repository index "Central" from path null and below.
+2017-06-24 16:42:10 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.index.DefaultIndexerManager - Trying to get remote index for repository "Central" [id=central]
+2017-06-24 16:42:20 INFO  [ar-4-thread-4]  org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file detected invalid input, results discarded: Prefix file size exceeds maximum allowed size (100000), refusing to load it.
+2017-06-24 16:42:21 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
+2017-06-24 16:42:22 WARN  [main]  org.sonatype.scheduling.DefaultScheduler - Scheduler shut down forcibly with tasks running.
+2017-06-24 16:42:22 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
+2017-06-24 16:42:22 INFO  [main]  org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
+2017-06-24 16:42:23 INFO  [main]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2017-06-24 16:42:23 INFO  [main]  org.sonatype.nexus.DefaultNexus - Stopped Sonatype Nexus 2.5.1-01
+2017-06-24 16:42:23 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
+2017-06-24 16:42:23 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
+2017-06-24 16:42:23 INFO  [main]  org.sonatype.sisu.ehcache.CacheManagerComponentImpl - Shutting down EHCache CacheManager.
+2017-06-24 16:42:23 WARN  [pxpool-1-thread-1]  org.sonatype.nexus.index.DefaultIndexerManager - Cannot fetch remote index for repository "Central" [id=central], task cancelled.
+2017-06-24 16:42:23 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.index.NexusScanningListener - Scanning of repositoryID="central" started.
+2017-06-24 16:42:25 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.index.NexusScanningListener - Scanning of repositoryID="central" finished: scanned=0, added=0, updated=0, removed=0, scanningDuration=0:00:01.110
+2017-06-24 16:42:25 WARN  [pxpool-1-thread-1]  org.sonatype.nexus.index.DefaultIndexerManager - Could not perform index operation on repository central
+java.lang.Exception: null
+	at org.sonatype.nexus.index.DefaultIndexerManager$23.run(DefaultIndexerManager.java:2618) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.exclusiveSingle(DefaultIndexerManager.java:2673) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.temporary(DefaultIndexerManager.java:2601) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.reindexRepository(DefaultIndexerManager.java:1091) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.reindexRepository(DefaultIndexerManager.java:1024) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.reindexRepository(DefaultIndexerManager.java:1000) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.tasks.ReindexTaskHandlerLegacy.reindexRepository(ReindexTaskHandlerLegacy.java:54) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.tasks.AbstractIndexerTask.doRun(AbstractIndexerTask.java:69) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusTask.call(AbstractNexusTask.java:179) [nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.scheduling.DefaultScheduledTask.call(DefaultScheduledTask.java:463) [sisu-task-scheduler-1.8.1.jar:1.8.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2017-06-24 16:42:25 WARN  [pxpool-1-thread-1]  org.sonatype.nexus.index.DefaultIndexerManager - Could not perform index operation on repository central
+java.lang.Exception: This is an artificial exception that provides caller backtrace.
+	at org.sonatype.nexus.index.DefaultIndexerManager.shared(DefaultIndexerManager.java:2534) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.publishRepositoryIndex(DefaultIndexerManager.java:1567) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.reindexRepository(DefaultIndexerManager.java:1028) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.index.DefaultIndexerManager.reindexRepository(DefaultIndexerManager.java:1000) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.tasks.ReindexTaskHandlerLegacy.reindexRepository(ReindexTaskHandlerLegacy.java:54) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.tasks.AbstractIndexerTask.doRun(AbstractIndexerTask.java:69) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusTask.call(AbstractNexusTask.java:179) [nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.scheduling.DefaultScheduledTask.call(DefaultScheduledTask.java:463) [sisu-task-scheduler-1.8.1.jar:1.8.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2017-06-24 16:42:25 WARN  [pxpool-1-thread-1]  org.sonatype.nexus.tasks.RepairIndexTask - Could not read repository!
+org.sonatype.nexus.proxy.NoSuchRepositoryException: Repository with ID="central" not found
+	at org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry.getRepository(DefaultRepositoryRegistry.java:121) ~[nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusRepositoriesTask.getRepositoryName(AbstractNexusRepositoriesTask.java:105) ~[nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.tasks.AbstractIndexerTask.getMessage(AbstractIndexerTask.java:106) [nexus-indexer-lucene-plugin-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusTask.getLoggedMessage(AbstractNexusTask.java:230) [nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusTask.getLoggedMessage(AbstractNexusTask.java:238) [nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.nexus.scheduling.AbstractNexusTask.call(AbstractNexusTask.java:189) [nexus-core-2.5.1-01.jar:2.5.1-01]
+	at org.sonatype.scheduling.DefaultScheduledTask.call(DefaultScheduledTask.java:463) [sisu-task-scheduler-1.8.1.jar:1.8.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2017-06-24 16:42:25 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.tasks.RepairIndexTask - Scheduled task (RepairIndexTask) finished :: Repairing repository index "central" from path null and below. (started 2017-06-24T16:42:07+08:00, runtime 0:00:18.229)
+2017-06-24 16:42:25 INFO  [pxpool-1-thread-1]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...

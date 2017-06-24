@@ -4,8 +4,8 @@
   <capabilities>
     <capability>
       <version>1</version>
-      <id>3ea1c675567</id>
-      <notes>Automatically added on Sat Oct 08 13:28:46 CST 2016</notes>
+      <id>39ebfa976421</id>
+      <notes>Automatically added on Sat Jun 24 16:41:09 CST 2017</notes>
       <typeId>OutreachManagementCapability</typeId>
       <properties>
         <property>
@@ -16,14 +16,14 @@
     </capability>
     <capability>
       <version>1</version>
-      <id>3ea1ef46121</id>
-      <notes>Automatically added on Sat Oct 08 13:28:46 CST 2016</notes>
+      <id>39ec056204ac</id>
+      <notes>Automatically added on Sat Jun 24 16:41:09 CST 2017</notes>
       <typeId>OutreachMarkerCapability</typeId>
     </capability>
     <capability>
       <version>1</version>
-      <id>3ea1f330997</id>
-      <notes>Automatically added on Sat Oct 08 13:28:46 CST 2016</notes>
+      <id>39ec05e784e2</id>
+      <notes>Automatically added on Sat Jun 24 16:41:09 CST 2017</notes>
       <typeId>yum</typeId>
       <properties>
         <property>

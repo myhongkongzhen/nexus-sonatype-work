@@ -1,0 +1,58 @@
+¥çúå Õ+ERROR_WARNINGwarning"Z
+messageONo configuration file in place, copying the default one and continuing with it."
+actionwarning"$
+date2017-06-24 16:41:09.389+0800•Ê…å Õ+SYSTEMCONFIG"T
+messageINexus server configuration was changed: [Repository Target Configuration]"
+actionCONFIG"$
+date2017-06-24 16:41:15.238+0800ÿ’Àå Õ+ERROR_WARNINGwarning"˝
+messageÒRemote strategy prefix-file error: RemoteStorageException / Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/.meta/prefixes.txt", remoteUrl="http://nexus.codehaus.org/snapshots/.meta/prefixes.txt"]"
+actionwarning"$
+date2017-06-24 16:41:15.477+0800|›œå Õ+SYSTEMBOOT"/
+message$Started Nexus (version 2.5.1-01 OSS)"
+actionBOOT"$
+date2017-06-24 16:41:15.997+0800£°ëç Õ+REPO_EVENTS	brokenWRC"8
+rurl0http://repo1.maven.org/maven2/.meta/prefixes.txt"b
+messageWWarning, the artifact /.meta/prefixes.txt has no remote checksum in repository central!"
+rcentral"
+path/.meta/prefixes.txt"
+action	brokenWRC"$
+date2017-06-24 16:41:24.375+0800æÚõç Õ+REPO_EVENTS	brokenWRC"A
+rurl9http://repository.apache.org/snapshots/.meta/prefixes.txt"k
+message`Warning, the artifact /.meta/prefixes.txt has no remote checksum in repository apache-snapshots!"
+rapache-snapshots"
+path/.meta/prefixes.txt"
+action	brokenWRC"$
+date2017-06-24 16:41:25.745+0800¥”®ç Õ+ERROR_WARNINGwarning"Z
+messageONo configuration file in place, copying the default one and continuing with it."
+actionwarning"$
+date2017-06-24 16:41:27.379+0800†åﬁç Õ+AUTHC_AUTHZAUTHC"L
+messageASuccessfully authenticated user [admin] from IP address 127.0.0.1"
+actionAUTHC"$
+date2017-06-24 16:41:34.219+0800¬€ñè Õ+ERROR_WARNINGwarning"Á
+message€Remote peer of proxy repository "Codehaus Snapshots" [id=codehaus-snapshots] threw a org.sonatype.nexus.proxy.RemoteStorageException exception. Connection/transport problems occured while connecting to remote peer of the repository. Auto-blocking this repository to prevent further connection-leaks and known-to-fail outbound connections until administrator fixes the problems, or Nexus detects remote repository as healthy. - Cause(s): Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="http://nexus.codehaus.org/snapshots/"] > nexus.codehaus.org"
+actionwarning"$
+date2017-06-24 16:41:57.850+0800Øﬂñè Õ+SYSTEMREPO_PSTATUS_CHANGES"¡
+messageµThe proxy mode of repository 'Codehaus Snapshots' (ID='codehaus-snapshots') was set to Blocked (auto). The previous state was Allow. Last detected transport error: Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="http://nexus.codehaus.org/snapshots/"]"
+actionREPO_PSTATUS_CHANGES"$
+date2017-06-24 16:41:57.855+0800¿ì⁄è Õ+SYSTEMCONFIG"o
+messagedUpdated repository Central (ID=central)  as proxy repository for URL http://repo1.maven.org/maven2/."
+actionCONFIG"$
+date2017-06-24 16:42:06.483+0800©ò⁄è Õ+SYSTEMCONFIG"X
+messageMNexus server configuration was changed: [Central], change was made by [admin]"
+actionCONFIG"$
+date2017-06-24 16:42:06.488+0800„üﬁè Õ+SYSTEMREINDEX"è
+messageÉRepairing repository index "Central" from path null and below. : Process started on Sat Jun 24 16:42:07 CST 2017, not yet finished."
+actionREINDEX"$
+date2017-06-24 16:42:07.007+0800£†»ê Õ+REPO_EVENTS	brokenWRC"8
+rurl0http://repo1.maven.org/maven2/.meta/prefixes.txt"b
+messageWWarning, the artifact /.meta/prefixes.txt has no remote checksum in repository central!"
+rcentral"
+path/.meta/prefixes.txt"
+action	brokenWRC"$
+date2017-06-24 16:42:20.575+0800ïñ‘ê Õ+ERROR_WARNINGwarning";
+message0Scheduler shut down forcibly with tasks running."
+actionwarning"$
+date2017-06-24 16:42:22.102+0800}Æ‘ê Õ+SYSTEMBOOT"0
+message%Stopping Nexus (version 2.5.1-01 OSS)"
+actionBOOT"$
+date2017-06-24 16:42:22.126+0800
